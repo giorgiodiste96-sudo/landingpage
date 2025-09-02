@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sicily Rent Experience for Host - Il Servizio #1 di Property Management in Sicilia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="nav__logo-text">Sicily Rent Experience for Host</span>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#come-funziona">Come Funziona</a></li>
+                <li><a href="#testimonial">Testimonianze</a></li>
+                <li><a href="#pricing">Prezzi</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+            <button class="btn btn--primary nav__cta" onclick="openContactModal()">Richiedi Consulenza</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">Il Servizio #1 di Property Management in Sicilia 🏠💎</h1>
+                    <p class="hero__subtitle">Massimizza i rendimenti del tuo immobile mentre noi gestiamo tutto per te</p>
+                    <button class="btn btn--cta hero__button" onclick="openContactModal()">Richiedi Consulenza Gratuita</button>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">1000+</span>
+                            <span class="hero__stat-label">Proprietari Felici</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">+40%</span>
+                            <span class="hero__stat-label">Aumento Ricavi</span>
+                        </div>
+                        <div class="hero__stat">
+                            <span class="hero__stat-number">24/7</span>
+                            <span class="hero__stat-label">Supporto</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="https://i.imgur.com/XPk64tP.jpeg" alt="Property Management in Sicilia" class="hero__img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefici -->
+    <section class="benefits section" id="benefici">
+        <div class="container">
+            <h2 class="section__title">Perché Scegliere Sicily Rent Experience for Host?</h2>
+            <div class="benefits__grid">
+                <div class="benefit-card">
+                    <div class="benefit-card__icon">💰</div>
+                    <h3 class="benefit-card__title">Aumenta i ricavi fino al 40%</h3>
+                    <p class="benefit-card__text">rispetto alla gestione fai-da-te</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card__icon">🌙</div>
+                    <h3 class="benefit-card__title">Zero stress</h3>
+                    <p class="benefit-card__text">pensiamo a tutto noi, 24/7</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-card__icon">✨</div>
+                    <h3 class="benefit-card__title">Proprietà sempre perfette</h3>
+                    <p class="benefit-card__text">condizioni impeccabili garantite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Come Funziona -->
+    <section class="process section" id="come-funziona">
+        <div class="container">
+            <h2 class="section__title">Come Funziona</h2>
+            <div class="process__steps">
+                <div class="process__step">
+                    <div class="process__step-number">1</div>
+                    <div class="process__step-content">
+                        <h3>Consulenza Gratuita</h3>
+                        <p>Analizziamo il potenziale del tuo immobile</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__step-number">2</div>
+                    <div class="process__step-content">
+                        <h3>Setup Professionale</h3>
+                        <p>Foto, descrizioni e pubblicazione su tutti i portali</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__step-number">3</div>
+                    <div class="process__step-content">
+                        <h3>Gestione Attiva</h3>
+                        <p>Ci occupiamo di tutto mentre tu ricevi i ricavi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servizi -->
+    <section class="services section" id="servizi">
+        <div class="container">
+            <h2 class="section__title">I Nostri Servizi</h2>
+            <div class="services__grid">
+                <div class="service-card">
+                    <div class="service-card__icon">🔧</div>
+                    <h3>Gestione Completa</h3>
+                    <p>Ci occupiamo di tutto: pubblicazione annunci, comunicazione con ospiti, check-in/out, e pulizie</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">📈</div>
+                    <h3>Massimizzazione Rendite</h3>
+                    <p>Ottimizziamo i prezzi in tempo reale e gestiamo le prenotazioni per massimizzare i tuoi ricavi</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">📱</div>
+                    <h3>Marketing Professionale</h3>
+                    <p>Foto professionali, descrizioni ottimizzate SEO e presenza su tutti i portali principali</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">📊</div>
+                    <h3>Report Dettagliati</h3>
+                    <p>Dashboard personale con analisi delle performance e report mensili completi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonianze -->
+    <section class="testimonials section" id="testimonial">
+        <div class="container">
+            <h2 class="section__title">Cosa Dicono i Nostri Clienti</h2>
+            <div class="testimonials__grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"In 6 mesi i miei ricavi sono aumentati del 45%. Finalmente posso viaggiare tranquillo sapendo che il mio appartamento è in ottime mani."</p>
+                    <div class="testimonial-card__author">
+                        <strong>Marco R.</strong>
+                        <span>Modica</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Servizio impeccabile! Zero problemi, zero stress. Consigliatissimo a tutti i proprietari."</p>
+                    <div class="testimonial-card__author">
+                        <strong>Giulia S.</strong>
+                        <span>Siracusa</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-card__text">"Professionalità e risultati concreti. Il mio investimento immobiliare finalmente rende come dovrebbe."</p>
+                    <div class="testimonial-card__author">
+                        <strong>Alessandro T.</strong>
+                        <span>Noto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garanzia -->
+    <section class="guarantee section">
+        <div class="container">
+            <div class="guarantee__content">
+                <div class="guarantee__icon">🛡️</div>
+                <h2>Garanzia Risultati</h2>
+                <p>Garantiamo un aumento dei ricavi di almeno il 20% entro 90 giorni.</p>
+                <div class="guarantee__features">
+                    <span class="guarantee__feature">✓ 90 giorni di garanzia</span>
+                    <span class="guarantee__feature">✓ Zero rischi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing section" id="pricing">
+        <div class="container">
+            <h2 class="section__title">Scegli il Tuo Piano</h2>
+            <div class="pricing__grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-card__name">Solo pricing</h3>
+                    <div class="pricing-card__price">20%<span> sul netto/mese</span></div>
+                    <p class="pricing-card__description">Perfetto per iniziare</p>
+                    <ul class="pricing-card__features">
+                        <li>Ottimizzazione prezzi w/PriceLabs</li>
+                        <li>Gestione prenotazioni</li>
+                        <li>Comunicazione ospiti</li>
+                        <li>Gestione calendario</li>
+                    </ul>
+                    <button class="btn btn--outline pricing-card__button" onclick="openContactModal()">Scegli Piano</button>
+                </div>
+                <div class="pricing-card pricing-card--featured">
+                    <div class="pricing-card__badge">Più Scelto</div>
+                    <h3 class="pricing-card__name">Professional</h3>
+                    <div class="pricing-card__price">25%<span> sul netto/mese</span></div>
+                    <p class="pricing-card__description">Il più scelto</p>
+                    <ul class="pricing-card__features">
+                        <li>Tutto del Solo pricing</li>
+                        <li>Check in</li>
+                        <li>Comunicazioni ospiti questura</li>
+                        <li>Gestione calendario pulizie</li>
+                        <li>Report dettagliati</li>
+                    </ul>
+                    <button class="btn btn--cta pricing-card__button" onclick="openContactModal()">Scegli Piano</button>
+                </div>
+                <div class="pricing-card">
+                    <h3 class="pricing-card__name">Premium</h3>
+                    <div class="pricing-card__price">Su richiesta<span></span></div>
+                    <p class="pricing-card__description">Servizio VIP completo</p>
+                    <ul class="pricing-card__features">
+                        <li>Tutto del Professional</li>
+                        <li>Manager dedicato</li>
+                        <li>Interior design</li>
+                        <li>Concierge service</li>
+                    </ul>
+                    <button class="btn btn--outline pricing-card__button" onclick="openContactModal()">Scegli Piano</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <h2 class="section__title">Domande Frequenti</h2>
+            <div class="faq__list">
+                <div class="faq__item">
+                    <div class="faq__question" onclick="toggleFaq(this)">
+                        <span>Quanto tempo serve per vedere i primi risultati?</span>
+                        <span class="faq__toggle">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Generalmente i primi miglioramenti si vedono entro 30 giorni dall'inizio della gestione.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question" onclick="toggleFaq(this)">
+                        <span>Posso cancellare il servizio in qualsiasi momento?</span>
+                        <span class="faq__toggle">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Sì, puoi cancellare con un preavviso di 30 giorni.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div class="faq__question" onclick="toggleFaq(this)">
+                        <span>Che garanzie offrite?</span>
+                        <span class="faq__toggle">+</span>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Garantiamo un aumento dei ricavi di almeno il 20% entro 90 giorni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta__content">
+                <h2>Inizia Oggi Stesso</h2>
+                <p>Non perdere altro tempo e denaro. Affidati ai professionisti del property management.</p>
+                <button class="btn btn--cta btn--lg" onclick="openContactModal()">Richiedi Consulenza Gratuita Ora</button>
+                <div class="cta__urgency">
+                    <span class="cta__urgency-text">⏰ Offerta limitata: Solo 10 posti disponibili questo mese!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contatti">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__logo">Sicily Rent Experience for Host</h3>
+                    <p>Il servizio #1 di Property Management in Sicilia</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Contatti</h4>
+                    <p>📞 +39 3382785033</p>
+                    <p>✉️ sicilyrentexperience@gmail.com</p>
+                    <p>📍 Via Quarto 31, 96019 Rosolini (SR)</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Servizi</h4>
+                    <ul>
+                        <li>Gestione Completa</li>
+                        <li>Marketing Professionale</li>
+                        <li>Ottimizzazione Prezzi</li>
+                        <li>Report Dettagliati</li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Certificazioni</h4>
+                    <div class="footer__certifications">
+                        <span class="certification-badge">🏆 Top Partner</span>
+                        <span class="certification-badge">⭐ 5 Stelle</span>
+                        <span class="certification-badge">🔒 Sicuro</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Sicily Rent Experience for Host. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div class="modal hidden" id="contact-modal">
+        <div class="modal__overlay" onclick="closeContactModal()">
+            <div class="modal__content" onclick="event.stopPropagation()">
+                <div class="modal__header">
+                    <h3>Richiedi Consulenza Gratuita</h3>
+                    <button class="modal__close" onclick="closeContactModal()">&times;</button>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Nome e Cognome</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">Telefono</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="city">Città</label>
+                        <input type="text" id="city" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Messaggio (opzionale)</label>
+                        <textarea id="message" class="form-control" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--cta btn--full-width">Invia Richiesta</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
